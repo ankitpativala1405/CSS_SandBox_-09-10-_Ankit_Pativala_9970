@@ -422,6 +422,10 @@ xl  >=1199px
     width: 70%;
   }
 
+  /* choose section */
+
+  .Choose-Section {}
+
   /* team section */
 
   .TeamCard {
@@ -480,7 +484,7 @@ xl  >=1199px
     margin-left: -240px;
   }
 
-  .pricing-main .pricing-heading{
+  .pricing-main .pricing-heading {
     display: flex;
     justify-content: center;
     justify-items: start;
@@ -496,8 +500,16 @@ xl  >=1199px
 
   /* footer */
 
-  .footer-head .cta-button {
+  /* .footer-head .cta-button {
     margin-left: -395px;
+  } */
+
+  .footer-head{
+    align-items: start;
+  }
+
+  .footer-head button {
+    margin: 0 0 0 0;
   }
 
   .footer-sub-main {
@@ -555,55 +567,71 @@ xl  >=1199px
     margin: 0;
   }
 
-  .strategy-section .container{
+  .strategy-section .container {
     width: 95%;
   }
 
-  .step-box{
-   max-width:95%;
-   padding: 0;
-  }
-
-  .text-content{
+  .step-box {
     max-width: 95%;
     padding: 0;
   }
 
-  .solutions-main-section .container{
+  .text-content {
+    max-width: 95%;
+    padding: 0;
+  }
+
+  .solutions-main-section .container {
     width: 95%;
   }
-  .Solution-main{
+
+  .Solution-main {
     flex-wrap: nowrap;
   }
 
-  .Solution-Text{
+  .Solution-Text {
     margin: 0;
     font-size: 17px;
   }
 
-  .community-section .container{
+  .community-section .container {
     width: 95%;
     padding: 0;
   }
 
-  .pricing-section .container{
+
+  .pricing-card-main {
+    margin-left: -40px;
+  }
+
+  .pricing-section .container {
     width: 95%;
   }
 
-  .pricing-heading{
+  .pricing-heading {
     display: flex;
     flex-direction: column;
   }
 
-  .pricing-card-heading{
+  .pricing-card-heading {
     display: flex;
     justify-items: start;
-    margin:0;
+    margin: 0;
     padding: 20px;
   }
 
-  .pricing-heading .cta-button{
+  .pricing-heading .cta-button {
     max-width: 38%;
   }
+
+  .Talk-Section .container {
+    margin: 0;
+  }
+
+  .Partner-Section .container {
+    margin: auto auto;
+    margin-top: -50px;
+  }
+
 
 }
