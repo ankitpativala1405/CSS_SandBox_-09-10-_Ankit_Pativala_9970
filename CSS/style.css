@@ -1117,6 +1117,10 @@ body {
   width: 100%;
 }
 
+.footer-head button{
+  align-items: start;
+}
+
 .footer-head p {
   font-size: 38px;
   font-weight: 600;
